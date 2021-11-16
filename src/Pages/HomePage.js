@@ -30,7 +30,7 @@ const HomePage=()=>{
     },[page,size]) // dependecy on page no. and size.
 
     return(
-        <div className='px-5 bg-primary'>
+        <div className='px-5' style={{backgroundColor:'#67EDFF'}}>
             <div className='row align-items-stretch'>
             {pokemonList.map(pokemon=><PokeCard pokemon={pokemon}/>)}        
             </div>
