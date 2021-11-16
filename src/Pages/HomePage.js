@@ -10,10 +10,10 @@ const HomePage=()=>{
     const [size,setSize]=useState(10)
     
 
+    //function to check whether bottom of page about to reach
     const checkBottom=()=>{
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            console.log("you're at the bottom of the page");
-            setPage(page+1)
+            setPage(page+1)  // bottom reached , increase page no. to fetch more data
          }
     }
 
@@ -27,7 +27,7 @@ const HomePage=()=>{
     useEffect(()=>{
         axios.get(`https://api.pokemontcg.io/v2/cards?page=${page}&pageSize=${size}`)
              .then(response=>setPokemonList([...pokemonList,...response.data.data]))
-    },[page,size])
+    },[page,size]) // dependecy on page no. and size.
 
     return(
         <div className='px-5 bg-primary'>
