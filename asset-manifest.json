@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/interviewPokemon/static/css/main.5739ad41.chunk.css",
+    "main.js": "/interviewPokemon/static/js/main.db1d042c.chunk.js",
+    "main.js.map": "/interviewPokemon/static/js/main.db1d042c.chunk.js.map",
+    "runtime-main.js": "/interviewPokemon/static/js/runtime-main.a1752aa2.js",
+    "runtime-main.js.map": "/interviewPokemon/static/js/runtime-main.a1752aa2.js.map",
+    "static/js/2.5c7b4c13.chunk.js": "/interviewPokemon/static/js/2.5c7b4c13.chunk.js",
+    "static/js/2.5c7b4c13.chunk.js.map": "/interviewPokemon/static/js/2.5c7b4c13.chunk.js.map",
+    "static/js/3.6cc5dc9f.chunk.js": "/interviewPokemon/static/js/3.6cc5dc9f.chunk.js",
+    "static/js/3.6cc5dc9f.chunk.js.map": "/interviewPokemon/static/js/3.6cc5dc9f.chunk.js.map",
+    "index.html": "/interviewPokemon/index.html",
+    "static/css/main.5739ad41.chunk.css.map": "/interviewPokemon/static/css/main.5739ad41.chunk.css.map",
+    "static/js/2.5c7b4c13.chunk.js.LICENSE.txt": "/interviewPokemon/static/js/2.5c7b4c13.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/interviewPokemon/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1752aa2.js",
+    "static/js/2.5c7b4c13.chunk.js",
+    "static/css/main.5739ad41.chunk.css",
+    "static/js/main.db1d042c.chunk.js"
+  ]
+}
